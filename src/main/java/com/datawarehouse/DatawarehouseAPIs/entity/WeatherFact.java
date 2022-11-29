@@ -4,6 +4,8 @@ import java.sql.Date;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.ManyToOne;
+import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 @Entity
@@ -189,5 +191,4 @@ public class WeatherFact {
 	public void setTimeExpried(Date timeExpried) {
 		this.timeExpried = timeExpried;
 	}
-	
 }

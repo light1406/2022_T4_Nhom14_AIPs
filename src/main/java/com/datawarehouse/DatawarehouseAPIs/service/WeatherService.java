@@ -8,4 +8,6 @@ public interface WeatherService {
 
 	List<Weather> getAll();
 
+	Weather getWeatherById(String id);
+
 }

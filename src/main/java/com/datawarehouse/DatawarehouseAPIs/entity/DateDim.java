@@ -2,6 +2,7 @@ package com.datawarehouse.DatawarehouseAPIs.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 @Entity
@@ -94,6 +95,4 @@ public class DateDim {
 	public void setDayOfWeek(String dayOfWeek) {
 		this.dayOfWeek = dayOfWeek;
 	}
-	
-	
 }
